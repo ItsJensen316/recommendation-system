@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      header {
+        background-color: #007bff;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+      }
+      aside {
+        width: 250px;
+        background-color: #343a40;
+        color: white;
+        height: 100vh;
+        padding: 20px;
+      }
+      aside ul {
+        list-style-type: none;
+      }
+      aside ul li {
+        margin: 15px 0;
+      }
+      aside ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        background-color: #495057;
+        border-radius: 4px;
+        text-align: center;
+      }
+      aside ul li a:hover {
+        background-color: #007bff;
+      }
+      main {
+        flex: 1;
+        padding: 20px;
+      }
+      .card {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .card h3 {
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+      }
+      .stats {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .stats .stat {
+        background-color: white;
+        padding: 20px;
+        flex: 1;
+        margin: 0 10px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .stat h4 {
+        margin-bottom: 10px;
+      }
+      .faculty-list {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .faculty-list th,
+      .faculty-list td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      .faculty-list th {
+        background-color: #007bff;
+        color: white;
+      }
+      .faculty-list tr:hover {
+        background-color: #f1f1f1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Admin Dashboard</h1>
+    </header>
+
+    <div class="container">
+      <!-- Sidebar Navigation -->
+      <aside>
+        <h2>Admin Menu</h2>
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Faculty List</a></li>
+          <li><a href="#">Performance Reports</a></li>
+          <li><a href="#">Manage Upscaling</a></li>
+          <li><a href="#">Account Settings</a></li>
+        </ul>
+      </aside>
+
+      <!-- Main Dashboard Content -->
+      <main>
+        <!-- Overview Stats -->
+        <div class="stats">
+          <div class="stat">
+            <h4>Total Faculties</h4>
+            <p>150</p>
+          </div>
+          <div class="stat">
+            <h4>Upcoming Appraisals</h4>
+            <p>25</p>
+          </div>
+          <div class="stat">
+            <h4>Pending Reviews</h4>
+            <p>10</p>
+          </div>
+        </div>
+
+        <!-- Faculty Table -->
+        <div class="card">
+          <h3>Recent Faculty Activity</h3>
+          <table class="faculty-list">
+            <thead>
+              <tr>
+                <th>Faculty Name</th>
+                <th>Designation</th>
+                <th>Department</th>
+                <th>Appraisal Status</th>
+                <th>Last Updated</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Jonas Kahnwald</td>
+                <td>Professor</td>
+                <td>Computer Science</td>
+                <td>Complete</td>
+                <td>2024-10-02</td>
+              </tr>
+              <tr>
+                <td>Martha Nielsen</td>
+                <td>Assistant Professor</td>
+                <td>Physics</td>
+                <td>In Progress</td>
+                <td>2024-09-28</td>
+              </tr>
+              <tr>
+                <td>Bartosz Tiedemann</td>
+                <td>Lecturer</td>
+                <td>Mathematics</td>
+                <td>Pending</td>
+                <td>2024-09-25</td>
+              </tr>
+              <tr>
+                <td>Franziska Doppler</td>
+                <td>Associate Professor</td>
+                <td>Chemistry</td>
+                <td>Complete</td>
+                <td>2024-09-20</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

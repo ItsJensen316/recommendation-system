@@ -1,0 +1,105 @@
+{
+  "faculty": [
+    {
+      "Faculty Name": "Jonas Kahnwald",
+      "Employee Code": "EMP001",
+      "Designation": "Assistant Professor",
+      "Department": "Physics",
+      "Contact Email": "jonas.kahnwald@university.edu",
+      "id": "fdc4"
+    },
+    {
+      "Faculty Name": "Martha Nielsen",
+      "Employee Code": "EMP002",
+      "Designation": "Professor",
+      "Department": "Mathematics",
+      "Contact Email": "martha.nielsen@university.edu",
+      "id": "ceb2"
+    },
+    {
+      "Faculty Name": "Ulrich Nielsen",
+      "Employee Code": "EMP003",
+      "Designation": "Senior Lecturer",
+      "Department": "History",
+      "Contact Email": "ulrich.nielsen@university.edu",
+      "id": "31c1"
+    },
+    {
+      "Faculty Name": "Hannah Kahnwald",
+      "Employee Code": "EMP004",
+      "Designation": "Associate Professor",
+      "Department": "Psychology",
+      "Contact Email": "hannah.kahnwald@university.edu",
+      "id": "6d8e"
+    },
+    {
+      "Faculty Name": "Bartosz Tiedemann",
+      "Employee Code": "EMP005",
+      "Designation": "Lecturer",
+      "Department": "Computer Science",
+      "Contact Email": "bartosz.tiedemann@university.edu",
+      "id": "5f32"
+    },
+    {
+      "Faculty Name": "Franziska Doppler",
+      "Employee Code": "EMP006",
+      "Designation": "Assistant Professor",
+      "Department": "Biology",
+      "Contact Email": "franziska.doppler@university.edu",
+      "id": "7148"
+    },
+    {
+      "Faculty Name": "Magnus Nielsen",
+      "Employee Code": "EMP007",
+      "Designation": "Lecturer",
+      "Department": "Physical Education",
+      "Contact Email": "magnus.nielsen@university.edu",
+      "id": "6973"
+    },
+    {
+      "Faculty Name": "Claudia Tiedemann",
+      "Employee Code": "EMP008",
+      "Designation": "Professor",
+      "Department": "Quantum Physics",
+      "Contact Email": "claudia.tiedemann@university.edu",
+      "id": "54dd"
+    },
+    {
+      "Faculty Name": "Charlotte Doppler",
+      "Employee Code": "EMP009",
+      "Designation": "Associate Professor",
+      "Department": "Criminology",
+      "Contact Email": "charlotte.doppler@university.edu",
+      "id": "5819"
+    },
+    {
+      "Faculty Name": "Noah",
+      "Employee Code": "EMP010",
+      "Designation": "Professor",
+      "Department": "Theology",
+      "Contact Email": "noah@university.edu",
+      "id": "60ea"
+    },
+    {
+      "id": "f8c6"
+    },
+    {
+      "id": "5400"
+    },
+    {
+      "id": "0341"
+    },
+    {
+      "id": "51af"
+    },
+    {
+      "id": "3562"
+    },
+    {
+      "id": "6488"
+    },
+    {
+      "id": "8e81"
+    }
+  ]
+}
